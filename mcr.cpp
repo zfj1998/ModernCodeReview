@@ -34,7 +34,7 @@ int  main(){
 			std::cout << "Which cell to mark? i:[1..3], j:[1..3]: "; 
 			std::cin >> i >> j;
 	                if (i == 3 || j == 3) {
-			     std::cout << "input cannot be 3";
+			     std::cout << "both i and j cannot be 3";
 	       		     break;
 			}
 			if (turn == false)
