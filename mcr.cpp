@@ -33,6 +33,10 @@ int  main(){
 				std::cout << "Player 2: ";
 			std::cout << "Which cell to mark? i:[1..3], j:[1..3]: "; 
 			std::cin >> i >> j;
+	                if (i == 3 || j == 3) {
+			     std::cout << "input cannot be 3";
+	       		     break;
+			}
 			if (turn == false)
 			   game[i][j] = 'X';
 			else 
